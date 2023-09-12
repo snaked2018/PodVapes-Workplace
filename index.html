@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <title>Document</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Lato', sans-serif;
+      }
+      body {
+        display: flex;
+        align-items: center;
+      }
+      .login-sec {
+        display: flex;
+        align-items: center;
+        margin: 5% auto;
+        width: 500px;
+        height: 500px;
+        text-align: center;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+        position: relative;
+        
+      }
+      img {
+        width: 250px;
+        margin-bottom: 55px;
+      }
+
+      h2 {
+        font-size: 40px;
+        color: grey;
+        margin-bottom: 15px;
+      }
+
+      .age-cnt-box {
+        color: gray;
+        font-size: 18px;
+        font-weight: 300;
+        width: 80%;
+        margin: auto;
+      }
+      .age-cnt-box {
+        margin-bottom: 55px;
+      }
+      span {
+        font-size: 2rem;
+        font-weight: lighter;
+        color: grey;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+      }
+      span:hover {
+        color: #1fcad4;
+      }
+      .signup-btn {
+        background-color: rgb(39, 39, 39);
+        border: none;
+        padding: 20px 35px 20px 35px;
+        height: 100px;
+        color: white;
+        margin: 5px;
+        text-decoration: none;
+        transition: 0.5s;
+        font-weight: 700;
+      }
+      .signup-btn:hover {
+        color: #1fcad4;
+        border-radius: 25px;
+      }
+    </style>
+    
+</head>
+
+<body>
+    <div class="login-sec">
+        <div class="confirm-age">
+        <div class="confirm-age-inner">
+          
+          <!--<img alt="{{ section.settings.logo.alt | default: shop.name }}" class="lazyload hs-lazyload hs-id-b0f7eabb" data-src="{{ 'Podvape-new-year.svg' | asset_url }}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>-->
+          
+            <img src="images/BLACKPODVAPES-v2.png" alt="">
+          
+           <!--<img alt="{{ section.settings.logo.alt | default: shop.name }}" class="lazyload hs-lazyload hs-id-d7c98a40" data-src="{{ 'xmas-logo.svg' | asset_url }}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>-->
+          
+           <!--<p class="presc">Nicotine Prescriptions Required. Get yours <a href="/pages/prescriptions">here</a>.</p>-->
+          
+          <h2 class="h1 text-center">NICOTINE PRODUCTS</h2>
+          
+          <!-- <div class="age-cnt-box age-cnt-box-au">We see you're from Australia. To view nicotine products, please click SIGN UP and upload your nicotine prescription or <a href="/account/login">LOGIN</a> if you already have an account.</div> -->
+          <div class="age-cnt-box age-cnt-box-in">To view nicotine products, please click <strong>SIGN UP</strong> or <strong>LOGIN</strong> if you already have an account.</div>
+          
+          <span id="enter_nologin"> X </span> 
+      <a href="https://podvapes.com" class="signup-btn"><i class="fas fa-user-plus" aria-hidden="true"></i> SIGN UP </a>
+          <a href="https://podvapes.com" class="signup-btn"><i class="fas fa-sign-in-alt"></i> LOGIN </a>
+          
+        </div>
+      </div>
+  </div>
+
+</body>
+</html>
